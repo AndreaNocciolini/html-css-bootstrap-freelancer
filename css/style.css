@@ -1,0 +1,18 @@
+[class^="col"] {
+    height: 50px;
+    background-color: seagreen;
+}
+
+header {
+    height: 50px;
+    background-color: red;
+}
+
+.container {
+    height: 30px;
+    background-color: springgreen;
+}
+
+.height-500 {
+    height: 500px;
+}
