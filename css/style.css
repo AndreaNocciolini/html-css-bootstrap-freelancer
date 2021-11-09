@@ -1,6 +1,5 @@
 [class^="col"] {
     height: 50px;
-    background-color: seagreen;
 }
 
 header {
@@ -13,6 +12,20 @@ header {
     background-color: springgreen;
 }
 
+.img {
+    height: 125px;
+    background-color: blue;
+    border-radius: 20px;
+}
+
 .height-500 {
     height: 500px;
+}
+
+.height-400 {
+    height: 400px;
+}
+
+.height-300 {
+    height: 300px;
 }
