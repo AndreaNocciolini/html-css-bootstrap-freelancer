@@ -3,28 +3,37 @@
     border: none;
 }
 /*****ATTENTION/MODIFIED BOOTSTRAP RULE/#INLINEFORMINPUTNAME****/
-.img img {
-    max-width: 100%;
-    border-radius: 7px;
-}
 
 a {
     color: white;
-}
-
-svg {
-    width: 50%;
 }
 
 header div>a,
 header div>ul {
     line-height: 3em;
 }
+.img img {
+    max-width: 100%;
+    border-radius: 7px;
+}
+
+
+svg {
+    width: 50%;
+}
 
 .star-line {
     content: '';
     height: 2px;
     width: 30%;
+}
+
+footer {
+    line-height: 0.8em;
+}
+
+.freelancer-text {
+    line-height: 1.5em;
 }
 
 .border-bot-black {
@@ -35,6 +44,7 @@ header div>ul {
     border-radius: 50%;
 }
 
+/***************Font Sizes****************************/
 .font-size-ul-header {
     font-size: small;
 }
@@ -46,14 +56,7 @@ header div>ul {
 .font-size-smaller {
     font-size: smaller;
 }
-
-footer {
-    line-height: 0.8em;
-}
-
-.freelancer-text {
-    line-height: 1.5em;
-}
+/**************End Font Sizes************************/
 
 /*********************Bg-color**********************/
 .bg-header {
@@ -69,6 +72,7 @@ footer {
 }
 /*********************End Bg-color**********************/
 
+/***********************Media Query*********************/
 @media screen and (max-width: 992px) {
     .font-size-ul-header {
         font-size: x-small;
@@ -96,3 +100,4 @@ footer {
         font-size: medium;
     }
 }
+/********************End Media Query********************/
