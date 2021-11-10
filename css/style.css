@@ -100,4 +100,10 @@ footer {
         font-size: medium;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .font-size-header-sx {
+        font-size: small;
+    }
+}
 /********************End Media Query********************/
