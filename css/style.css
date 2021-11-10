@@ -49,6 +49,10 @@ svg {
     max-width: 100%;
     border-radius: 7px;
 }
+
+.plus-img {
+    display: none;
+}
 /*******End Images and Star/Star-line******/
 
 
@@ -89,6 +93,12 @@ svg {
 img:hover {
     transition: 1s;
     filter: opacity(0);
+    cursor: pointer;
+}
+
+.img-container:hover .plus-img {
+    display: block;
+    transition: 1s;
 }
 /*****************End Portfolio Hover***********************/
 
