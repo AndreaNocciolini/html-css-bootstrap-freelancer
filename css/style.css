@@ -4,6 +4,15 @@
     border-radius: 20px;
 }
 
+a {
+    color: white;
+}
+
+header div>a,
+header div>ul {
+    line-height: 3em;
+}
+
 .text {
     height: 150px;
     background-color: blueviolet;
