@@ -1,3 +1,8 @@
+/*****ATTENTION/MODIFIED BOOTSTRAP RULE/#INLINEFORMINPUTNAME****/
+#inlineFormInputName{
+    border: none;
+}
+/*****ATTENTION/MODIFIED BOOTSTRAP RULE/#INLINEFORMINPUTNAME****/
 .img img {
     max-width: 100%;
     border-radius: 7px;
@@ -25,6 +30,7 @@ header div>ul {
 .border-bot-black {
     border-bottom: 1px solid black;
 }
+
 /********************Heights******************/
 .height-500 {
     height: 500px;
