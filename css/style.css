@@ -35,6 +35,14 @@ header div>ul {
     border-radius: 50%;
 }
 
+.font-size-ul-header {
+    font-size: small;
+}
+
+.font-size-header-sx {
+    font-size: x-large;
+}
+
 .font-size-smaller {
     font-size: smaller;
 }
@@ -58,4 +66,33 @@ footer {
 
 .bg-footer {
     background-color: #3a546d;
+}
+/*********************End Bg-color**********************/
+
+@media screen and (max-width: 992px) {
+    .font-size-ul-header {
+        font-size: x-small;
+    }
+
+    .font-size-header-sx {
+        font-size: large
+    }
+
+    .font-size-small-media-md {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    svg {
+        width: 30%;
+    }
+
+    .font-size-header-sx {
+        font-size: medium
+    }
+
+    .font-size-small-media-md {
+        font-size: medium;
+    }
 }
