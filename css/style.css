@@ -30,17 +30,6 @@ footer {
 }
 
 /**********Images and Star/Star-line*********/
-.img {
-    border-radius: 7px;
-    background-color: #1cf096;
-}
-
-.img img {
-    max-width: 100%;
-    border-radius: 7px;
-}
-
-
 svg {
     max-width: 80%;
 }
@@ -50,12 +39,27 @@ svg {
     height: 2px;
     width: 30%;
 }
+
+.img {
+    border-radius: 7px;
+    background-color: #1cf096;
+}
+
+.img img {
+    max-width: 100%;
+    border-radius: 7px;
+}
 /*******End Images and Star/Star-line******/
 
 
 /***************Font Sizes****************************/
 .font-size-ul-header {
     font-size: small;
+}
+
+
+.font-size-plus-img {
+    font-size: 4em;
 }
 
 .font-size-header-sx {
@@ -101,6 +105,10 @@ img:hover {
     .font-size-small-media-md {
         font-size: small;
     }
+
+    .font-size-plus-img {
+        font-size: 7em;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -117,6 +125,10 @@ img:hover {
 @media screen and (max-width: 400px) {
     .font-size-header-sx {
         font-size: small;
+    }
+
+    .font-size-plus-img {
+        font-size: 5em;
     }
 }
 /********************End Media Query********************/
