@@ -12,21 +12,6 @@ header div>a,
 header div>ul {
     line-height: 3em;
 }
-.img img {
-    max-width: 100%;
-    border-radius: 7px;
-}
-
-
-svg {
-    width: 50%;
-}
-
-.star-line {
-    content: '';
-    height: 2px;
-    width: 30%;
-}
 
 footer {
     line-height: 0.8em;
@@ -43,6 +28,30 @@ footer {
 .circle {
     border-radius: 50%;
 }
+
+/**********Images and Star/Star-line*********/
+.img {
+    border-radius: 7px;
+    background-color: #1cf096;
+}
+
+.img img {
+    max-width: 100%;
+    border-radius: 7px;
+}
+
+
+svg {
+    max-width: 80%;
+}
+
+.star-line {
+    content: '';
+    height: 2px;
+    width: 30%;
+}
+/*******End Images and Star/Star-line******/
+
 
 /***************Font Sizes****************************/
 .font-size-ul-header {
@@ -72,6 +81,13 @@ footer {
 }
 /*********************End Bg-color**********************/
 
+/******************Portfolio Hover****************************/
+img:hover {
+    transition: 1s;
+    filter: opacity(0);
+}
+/*****************End Portfolio Hover***********************/
+
 /***********************Media Query*********************/
 @media screen and (max-width: 992px) {
     .font-size-ul-header {
@@ -88,8 +104,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    
     svg {
-        width: 30%;
+        max-width: 63%;
     }
 
     .font-size-header-sx {
