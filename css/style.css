@@ -1,11 +1,13 @@
 .img {
-    height: 125px;
-    background-color: blue;
     border-radius: 20px;
 }
 
-a,
-i {
+.img img {
+    max-width: 100%;
+    border-radius: 7px;
+}
+a
+ {
     color: white;
 }
 
@@ -21,7 +23,6 @@ header div>ul {
 .star-line {
     content: '';
     height: 2px;
-    background-color: white;
     width: 30%;
 }
 
