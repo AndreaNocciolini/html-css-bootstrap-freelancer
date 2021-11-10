@@ -40,12 +40,12 @@ svg {
     width: 30%;
 }
 
-.img {
+.img-bg {
     border-radius: 7px;
     background-color: #1cf096;
 }
 
-.img img {
+.img-bg img {
     max-width: 100%;
     border-radius: 7px;
 }
