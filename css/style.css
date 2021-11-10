@@ -8,6 +8,10 @@ a {
     color: white;
 }
 
+header {
+    z-index: 99;
+}
+
 header div>a,
 header div>ul {
     line-height: 3em;
