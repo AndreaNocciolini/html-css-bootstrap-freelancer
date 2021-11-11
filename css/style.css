@@ -97,7 +97,11 @@ svg {
 }
 /*********************End Bg-color**********************/
 
-/******************Portfolio Hover****************************/
+/******************Hover Effects****************************/
+header a:hover {
+    color: #1abc9c;
+}
+
 img:hover {
     transition: 1s;
     filter: opacity(0);
@@ -108,7 +112,7 @@ img:hover {
     display: block;
     transition: 1s;
 }
-/*****************End Portfolio Hover***********************/
+/*****************End Hover Effects***********************/
 
 /***********************Media Query*********************/
 @media screen and (max-width: 992px) {
