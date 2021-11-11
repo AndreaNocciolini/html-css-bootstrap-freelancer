@@ -1,9 +1,12 @@
 /*****ATTENTION/MODIFIED BOOTSTRAP RULE/#INLINEFORMINPUTNAME****/
+/**************************************************************/
 #inlineFormInputName{
     border: none;
 }
+/**************************************************************/
 /*****ATTENTION/MODIFIED BOOTSTRAP RULE/#INLINEFORMINPUTNAME****/
 
+/************Miscellaneous*************/
 a {
     color: white;
 }
@@ -32,6 +35,7 @@ footer {
 .circle {
     border-radius: 50%;
 }
+/************End Miscellaneous*************/
 
 /**********Images and Star/Star-line*********/
 svg {
