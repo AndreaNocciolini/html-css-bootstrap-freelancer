@@ -37,6 +37,10 @@ footer {
 .circle {
     border-radius: 50%;
 }
+
+.form-message {
+    height: 9em;
+}
 /************End Miscellaneous*************/
 
 /**********Images and Star/Star-line*********/
